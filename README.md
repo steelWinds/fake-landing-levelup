@@ -1,9 +1,9 @@
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/steelWinds/starterkit-gulp-config/lintCheck)](https://actions-badge.atrox.dev/steelWinds/starterkit-gulp-config/goto?ref=main)
-[![GitHub](https://img.shields.io/github/license/steelWinds/starterkit-gulp-config?color=#45bf17&style=popout-square)](https://github.com/steelWinds/starterkit-gulp-config/blob/main/LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/steelWinds/fake-landing-levelup/lintCheck)](https://actions-badge.atrox.dev/steelWinds/fake-landing-levelup/goto?ref=main)
+[![GitHub](https://img.shields.io/github/license/steelWinds/fake-landing-levelup?color=#45bf17&style=popout-square)](https://github.com/steelWinds/fake-landing-levelup/blob/main/LICENSE)
 
-# starterkit-gulp-config
+# fake-landing-levelup
 
-This is starter kit config for gulp and webpack for js.
+This is simple landing 
 
 ## Getting Started
 
