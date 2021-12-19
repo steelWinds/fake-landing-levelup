@@ -224,8 +224,7 @@
 
 .adaptive-image {
     display: block;
-    width: 100%;
-    max-width: 300px;
+    width: 25vmin;
 
     object-fit: contain;
 }
