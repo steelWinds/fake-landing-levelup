@@ -229,6 +229,11 @@
     object-fit: contain;
 }
 
+.adaptive-image_max-480 {
+    width: 100%;
+    max-width: 480px;
+}
+
 /* --- */
 
 .slider {
