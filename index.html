@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+        <script src="./js/app.js" defer></script>
+
+        <link rel="stylesheet" href="./css/atoms.css">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+
+        <title>Level Up</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 class="header__title">
+                Level Up
+            </h1>
+        </header>
+
+        <main>
+            <article class="container container_full-screen">
+                <article class="container__wrapper container_promotion-one-grid">
+                    <video 
+                        class="container__video-background" 
+                        autoplay 
+                        muted 
+                        loop>
+
+                        <source src="./media/med-video.webm" type="video/webm">
+                        <source src="./media/med-video.mp4" type="video/mp4">
+                    </video>
+
+                    <img src="./media/prod.png" alt="Product image" class="adaptive-image">
+
+                    <section class="back-main-color p-1 border-r-1">
+                        <ul class="material-list mb-2 c-white">
+                            <li class="material-list__item">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Exercitationem mollitia cumque aspernatur neque eaque. Ab.
+                            </li>
+                            <li class="material-list__item">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Exercitationem mollitia cumque aspernatur neque eaque. Ab.
+                            </li>
+                            <li class="material-list__item">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Exercitationem mollitia cumque aspernatur neque eaque. Ab.
+                            </li>
+                        </ul>
+
+                        <button class="material-button" onclick="scrollToElement('#form')">
+                            Заказать
+                        </button>
+                    </section>
+                </article>
+            </article>
+            <article class="container back-gradient">
+                <h2 class="container__title">
+                    Состав продукта
+                </h2>
+
+                <article class="container__wrapper container_prod-composition-grid">
+                    <section class="space-y-1">
+                        <article class="component-card">
+                            <img class="component-card__image" src="./media/tablets.jpg" alt="Component image">
+                            <h3 class="component-card__title">Lorem ipsum dolor sit amet.</h3>
+                        </article>
+    
+                        <article class="component-card">
+                            <img class="component-card__image" src="./media/tablets.jpg" alt="Component image">
+                            <h3 class="component-card__title">Lorem ipsum dolor sit amet.</h3>
+                        </article>
+    
+                        <article class="component-card">
+                            <img class="component-card__image" src="./media/tablets.jpg" alt="Component image">
+                            <h3 class="component-card__title">Lorem ipsum dolor sit amet.</h3>
+                        </article>
+                    </section>
+                    <section class="align-self-center justify-self-center flex-col-center">
+                        <img src="./media/prod.png" alt="Product image" class="adaptive-image mb-2">
+                        <button class="material-button" onclick="scrollToElement('#form')">
+                            Сделать заказ
+                        </button>
+                    </section>
+                    <section class="space-y-1">
+                        <article class="component-card">
+                            <img class="component-card__image" src="./media/tablets.jpg" alt="Component image">
+                            <h3 class="component-card__title">Lorem ipsum dolor sit amet.</h3>
+                        </article>
+                        
+                        <article class="component-card">
+                            <img class="component-card__image" src="./media/tablets.jpg" alt="Component image">
+                            <h3 class="component-card__title">Lorem ipsum dolor sit amet.</h3>
+                        </article>
+                        
+                        <article class="component-card">
+                            <img class="component-card__image" src="./media/tablets.jpg" alt="Component image">
+                            <h3 class="component-card__title">Lorem ipsum dolor sit amet.</h3>
+                        </article>
+                    </section>
+                </article>
+            </article>
+            <article class="container container_center">
+                <h2 class="container__title">
+                    Отзывы
+                </h2>
+
+                <article class="slider">
+                    <section class="slider__controls">
+                        <button class="slider__arrow arrow-left">
+                            <img src="./media/arrow.svg" alt="Arrow img">
+                        </button>
+                        <button class="slider__arrow arrow-right">
+                            <img src="./media/arrow.svg" alt="Arrow img">
+                        </button>
+                    </section>
+
+                    <article class="slider__wrapper">
+                        <div class="slider__item">
+                            <img src="./media/human.jpg" alt="Slider item image" class="slider__image">
+                            <h3 class="slider__title">
+                                Jonh Doe
+                            </h3>
+                            <p class="slider__desc">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Eaque voluptatibus corporis consequatur sunt sit repellat.
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="./media/human.jpg" alt="Slider item image" class="slider__image">
+                            <h3 class="slider__title">
+                                Jonh Doe
+                            </h3>
+                            <p class="slider__desc">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Eaque voluptatibus corporis consequatur sunt sit repellat.
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="./media/human.jpg" alt="Slider item image" class="slider__image">
+                            <h3 class="slider__title">
+                                Jonh Doe
+                            </h3>
+                            <p class="slider__desc">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Eaque voluptatibus corporis consequatur sunt sit repellat.
+                            </p>
+                        </div>
+                    </article>
+                </article>
+            </article>
+            <article class="container">
+                <h2 class="container__title">
+                    Описание продукта
+                </h2>
+
+                <article class="container__wrapper container_promotion-second-grid">
+                    <section>
+                        <img src="./media/doctor.png" alt="Doctor image" class="adaptive-image">
+                    </section>
+                    
+                    <section class="back-main-color p-1 c-white border-r-1">
+                        <h3>
+                            Описание
+                        </h3>
+                        
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Fuga, sint nesciunt. Incidunt ad quasi aliquid vel, hic placeat exercitationem itaque.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Fuga, sint nesciunt. Incidunt ad quasi aliquid vel, hic placeat exercitationem itaque.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Fuga, sint nesciunt. Incidunt ad quasi aliquid vel, hic placeat exercitationem itaque.
+                        </p>
+
+                        <button class="material-button" onclick="scrollToElement('#form')">
+                            заказать
+                        </button>
+                    </section>
+
+                    <section class="w-full">
+                        <ul class="material-list material-list_row p-1 back-main-color c-white">
+                            <li class="material-list__item">
+                                Lorem, ipsum dolor sit amet!
+                            </li>
+                            <li class="material-list__item">
+                                Lorem, ipsum dolor sit amet!
+                            </li>
+                            <li class="material-list__item">
+                                Lorem, ipsum dolor sit amet!
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+            </article>
+            <article class="container" id="form">
+                <h2 class="container__title">
+                    Сделать заказ
+                </h2>
+
+                <article class="container__wrapper container_form-section-grid">
+                    <section class="align-self-center">
+                        <span class="f-size-xl flex-row-center mb-2 gap-1">
+                            Успей вовремя!
+
+                            <time class="timer"></time>
+                        </span>
+
+                        <article class="custom-price mb-2">
+                            <p class="custom-price__old">
+                                <span class="custom-price__old-price">1500</span>
+                            </p>
+
+                            <p class="custom-price__new">
+                                <span class="custom-price__new-price">500</span>
+                            </p>
+                        </article>
+
+                        <form onclick="event.preventDefault()" class="material-form">
+                            <label class="material-form__label-input label-name">
+                                <input type="text" placeholder="Введите свое имя" class="material-form__input">
+                                <span class="material-form__tip">Сергей Михалыч</span>
+                            </label>
+                            <label class="material-form__label-input label-name">
+                                <input 
+                                    type="text" 
+                                    placeholder="Введите свой номер" 
+                                    class="material-form__input"
+                                    oninput="numberMask(event)">
+                                <span class="material-form__tip">8-900-111-11-11</span>
+                            </label>
+                            
+                            <button class="material-form__btn material-button material-button_purple-style">
+                                Сделать заказ
+                            </button>
+                        </form>
+
+                    </section>
+                    <section class="justify-self-center">
+                        <img src="./media/prod.png" alt="Production image" class="adaptive-image">
+                    </section>
+                </article>
+            </article>
+        </main>
+    </body>
+</html>

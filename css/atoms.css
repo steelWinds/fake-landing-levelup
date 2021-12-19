@@ -1,0 +1,73 @@
+.mb-1 {
+    margin-bottom: 1em !important;
+}
+
+.mb-2 {
+    margin-bottom: 2em !important;
+}
+
+.back-main-color {
+    background-color: var(--color-main);
+}
+
+.back-gradient {
+    background: linear-gradient(white, rgb(102 59 108 / .5  ));  
+}
+
+.p-1 {
+    padding: 1em !important;
+}
+
+.border-r-1 {
+    border-radius: .5em;
+}
+
+.c-white {
+    color: white;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.space-y-1 > *:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.max-w-600 {
+    max-width: 600px !important;
+}
+
+.col-span-2 {
+    grid-column: span 2;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.flex-col-center {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-size-xl {
+    font-size: 2em;
+}
+
+.gap-1 {
+    gap: 1em;
+}

@@ -1,0 +1,15 @@
+@import '../fonts/Lato/lato-font.css';
+@import './tiny-slider.css';
+@import './animations.css';
+
+* {
+    box-sizing: border-box;
+
+    font-family: 'Lato', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
