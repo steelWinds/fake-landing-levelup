@@ -444,7 +444,7 @@
 
 .custom-price__new-price {
     display: inline-block;
-    animation: slide-up 2.3s forwards infinite ease;
+    animation: slide-up 2.6s forwards infinite ease;
 }
 
 /* --- */
